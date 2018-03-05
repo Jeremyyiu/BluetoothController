@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="200dp"
-        android:layout_marginLeft="100dp"
+        android:layout_gravity="center_horizontal"
         android:text="Toggle Bluetooth" />
 
     <com.gc.materialdesign.views.Switch
@@ -20,7 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#1E88E5"
-        android:layout_marginLeft="100dp"
+        android:layout_gravity="center_horizontal"
         materialdesign:check="true" />
 
 </LinearLayout>
